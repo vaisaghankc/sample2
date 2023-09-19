@@ -1,0 +1,235 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.nav{
+    height: 100px;
+    width: 100px;
+
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+.nav-image{
+    height: 135px;
+    width: 135px;
+    margin-left: 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.listItem{
+    display: inline-block;
+    margin: 10px 20px;
+}
+.lists{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.lists:hover{
+color: red;
+}
+.secondname{
+    color: orange;
+}
+.title{
+    margin-top: 13%;
+    margin-left: 8%;
+}
+.title-h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.download{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin: 30px 0px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+.images{
+position: absolute;
+width: 45%;
+height: 80%;
+bottom: 0px;
+right: 30px;
+}
+.images img{
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%);
+transition: bottom 1s, left 1s;
+}
+.images:hover #shape{
+bottom: 15%;
+}
+.images:hover #girl{
+    left: 30%;
+}
+.about-heading{
+    text-align: center;
+}
+#about{
+    margin: 10% 8% 0px 8%;
+}
+.intro{
+    color: green;
+    font-size: 20px;
+}
+.about2{
+    font-size: 32px;
+}
+.about-image img{
+    width: 80%;
+}
+.about-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 30px;
+    gap: 10px;
+}
+.about-details{
+    font-size: 18px;
+    text-align: justify;
+}
+.information{
+    margin-top:20px;
+}
+.infospan{
+    margin-left: 20px;
+}
+.skill-heading{
+    text-align: center;
+}
+#skills{
+    margin: 10% 8% 0px 8%;
+}
+.skill-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 30px;
+    gap: 10px;
+}
+.progress-bar{
+    margin-left: 70PX;
+    margin-left: 40px;
+}
+.bar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0px;
+    margin-bottom: 1rem;
+    position: relative;
+}
+.base-bar{
+    background-color: black;
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+}
+.orange-bar{
+    background-color: orange;
+    width: 95%;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+}
+.orange-bar1{
+        background-color: orange;
+        width: 89%;
+        height: 5px;
+        border-radius: 5px;
+        position: absolute;
+        bottom: 0px;
+}
+.orange-bar2{
+    background-color: orange;
+    width: 88%;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+}
+.orange-bar3{
+    background-color: orange;
+    width: 85%;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+}
+.contact-heading{
+    text-align: center;
+    margin-top: 50px;
+}
+.each-icon:hover{
+    background-image: linear-gradient(to bottom right,yellow,red);
+}
+.each-icon:hover i{
+    color: white;
+    animation: shake 0.75s;
+}
+@keyframes shake{
+    10%{
+        transform: rotate(10deg);
+    }
+    20%{
+        transform: rotate(-10deg);
+    }
+}
+.icon-set{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+.icon-style{
+margin-left: 20px;
+font-size: 30px;
+}
+.bottom-footer{
+    text-align: center;
+    margin-top: 2%;
+}
+.up-arrow{
+    float: right;
+    background-image: linear-gradient(to bottom right,yellow,red);
+    margin: 0px 10px 50px 0px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.up-arrow i{
+    margin-left: 13px;
+    margin-top: 10px;
+}
+.up-arrow:hover i{
+    color: white;
+    animation: shake 0.75s;
+}
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+}
